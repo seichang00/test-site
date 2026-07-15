@@ -1,5 +1,5 @@
 ---
-title: 'Interpretable Neural ODEs for Gene Regulatory Network Discovery under Perturbations'
+title: 'PerturbODE: Interpretable Neural ODEs for Gene Regulatory Network Discovery under Perturbations'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -8,6 +8,8 @@ authors:
   - Zaikang Lin
   - admin
   - Aaron Zweig
+  - Minseo Kang
+  - Fabian J. Theis
   - Elham Azizi
   - David A. Knowles
 
@@ -15,21 +17,22 @@ authors:
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
+  - 'Equal contribution'
 
-date: '2025-01-05T00:00:00Z'
+date: '2026-05-29T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-01-05T00:00:00Z'
+publishDate: '2026-05-29T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['article']
+publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: "*arXiv*"
-# publication_short: In *ICML'24 Workshop ML for Life and Material Science*
+publication: "*43rd International Conference on Machine Learning (ICML)*"
+publication_short: "*ICML 2026*"
 
 abstract: Modern high-throughput biological datasets with thousands of perturbations provide the opportunity for large-scale discovery of causal graphs that represent the regulatory interactions between genes. Differentiable causal graphical models have been proposed to infer a gene regulatory network (GRN) from large scale interventional datasets, capturing the causal gene regulatory relationships from genetic perturbations. However, existing models are limited in their expressivity and scalability while failing to address the dynamic nature of biological processes such as cellular differentiation. We propose PerturbODE, a novel framework that incorporates biologically informative neural ordinary differential equations (neural ODEs) to model cell state trajectories under perturbations and derive the causal GRN from the neural ODE's parameters. We demonstrate PerturbODE's efficacy in trajectory prediction and GRN inference across simulated and real over-expression datasets. 
 
@@ -41,6 +44,7 @@ tags:
   - causal discovery
   - gene regulatory network
   - neural ODE
+  - gene perturbations
 
 # Display this page in the Featured widget?
 featured: true
@@ -51,10 +55,10 @@ featured: true
 #   url: http://example.org
 
 url_pdf: 'https://arxiv.org/abs/2501.02409'
-url_code: ''
+url_code: 'https://github.com/daklab/PerturbODE'
 url_dataset: ''
-url_poster: ''
-url_project: ''
+url_poster: 'https://icml.cc/media/PosterPDFs/ICML%202026/61747.png?t=1783230685.822863'
+url_project: 'https://icml.cc/virtual/2026/poster/61747'
 url_slides: ''
 url_source: ''
 url_video: ''

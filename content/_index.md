@@ -123,6 +123,14 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Machine Leearning Research Intern
+          company: Genentech
+          company_url: https://www.gene.com/
+          company_logo: genentech
+          location: South San Francisco, CA
+          date_start: '2026-06-15'
+          date_end: ''
+          description: Single-cell foundation models team, AI Biology \& Translation (AIBT). Developing a machine learning-based framework for learning patient-level representations and epistatic gene interactions from scRNA-seq patient disease samples.
         - title: Machine Learning Researcher
           company: New York Genome Center
           company_url: 'https://www.nygenome.org/'
